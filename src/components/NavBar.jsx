@@ -13,7 +13,7 @@ export const NavBar = () => {
                 <OptionCard option = "Proyectos" />
                 <OptionCard option = "Testimonios" />
                 <OptionCard option = "Tecnologia" />
-                <OptionCard option = "Industrias" />
+                <OptionCard option = "Servicios" />
                 <OptionCard option = "Sobre Nosotros" />
             </div>
             <div className="btn-nav">

@@ -1,7 +1,10 @@
 .nv-container{
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
+     z-index: 10000;
     align-items: center;
-
     color: black;
     background-color: #fff;
     width: 100%;

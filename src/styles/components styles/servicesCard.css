@@ -1,0 +1,10 @@
+.svc-card{
+    width: 400px;
+    height: 100px;
+}
+
+.svc-card svg{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
