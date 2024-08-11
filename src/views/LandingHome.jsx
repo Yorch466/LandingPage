@@ -5,22 +5,22 @@ import bg from "../assets/img/msgA.jpg"
 import "../styles/views styles/LandingHome.css"
 import { ServicesCard } from "../components/ServicesCard"
 
-export const LandingHome = () =>{
-    return(
+export const LandingHome = () => {
+    return (
         <div className="ldh-container">
             <div className="nv-container">
-                <NavBar/>
+                <NavBar />
             </div>
             <div className="bd-cont">
                 <div className="pst-cont">
                     <img src={bg} alt="no furulo we" />
                     <span className="sp1">
-                        Empresa de <br/>
-                        desarrollo de <br/>
+                        Empresa de <br />
+                        desarrollo de <br />
                         Software.
                     </span>
                     <span className="sp2">
-                        Deboramos <br />
+                        Devoramos <br />
                         a la competencia
                     </span>
                 </div>
@@ -30,16 +30,24 @@ export const LandingHome = () =>{
                     <img src={topC} alt="no furulo we" />
                 </div>
                 <div className="svc-cont">
-                    <div className="">
-                        <h2>Servicios que Ofrecemos</h2>
-                    </div>
+                    <h1>Servicios que Ofrecemos</h1>
                     <hr />
-                    <div className="">
-                        <img src={toolK} alt="no furulo we" />
+                    <div className="svc-content">
+                        <img className="svc-img" src={toolK} alt="no furulo we" />
+                        <div className="services-cont">
+                            <ServicesCard service="Desarrollo Móvil" />
+                            <ServicesCard service="Desarrollo Web" />
+                            <ServicesCard service="Desarrollo de Software a medida" />
+                            <ServicesCard service="Desarrollo multiplataforma" />
+                            <ServicesCard service="Desarrollo en la nube" />
+                            <ServicesCard service="Desarrollo IoT" />
+                            <ServicesCard service="Creación y Gestión de Bases de Datos" />
+                            <ServicesCard service="Desarrollo PWA" />
+                            <ServicesCard service="Integración API" />
+                            <ServicesCard service="Modernización de sistemas heredados" />
+                        </div>
                     </div>
-                    <div className="services-cont">
-                        <ServicesCard service = "kk"/>
-                    </div>
+
                 </div>
             </div>
         </div>

@@ -1,10 +1,41 @@
 .svc-card{
-    width: 400px;
-    height: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 306px;
+    height: 40px;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background-color: #ebebeb;
+    position: relative;
+    overflow: hidden;
 }
 
-.svc-card svg{
-    width: 40px;
-    height: 40px;
-    background-color: white;
+.svc-card span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #020303;
+    width: 200px;
+}
+
+.svc-card a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.svc-card::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px; 
+    width: 0;
+    background-color: #5EDFE6; 
+    transition: width 0.3s ease; 
+}
+
+.svc-card:hover::after {
+    width: 100%; 
 }
