@@ -1,0 +1,8 @@
+.services{
+    font-style: italic;
+}
+
+.services:hover{
+    cursor: pointer;
+    color: #1a73e8;
+}
