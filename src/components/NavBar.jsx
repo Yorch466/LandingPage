@@ -11,7 +11,7 @@ export const NavBar = () => {
             </div>
             <div className="sp-cont">
                 <OptionCard option = "Proyectos" />
-                <OptionCard option = "Testimonios" />
+                <OptionCard option = "Clientes" />
                 <OptionCard option = "Tecnologia" />
                 <OptionCard option = "Servicios" />
                 <OptionCard option = "Sobre Nosotros" />

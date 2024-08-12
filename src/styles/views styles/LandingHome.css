@@ -94,6 +94,7 @@
     background-color: #ffff;
     width: 1200px;
     padding: 40px;
+    height: 680px;
 }
 
 .svc-cont h1{
@@ -108,7 +109,6 @@
     display: flex;
     padding-top: 40px;
     width: 100%;
-    height: 100%;
 }
 
 .svc-img{
@@ -124,3 +124,122 @@
     width: 1000px;
     gap: 10px 20px;
 }
+
+.ind-cont{
+    display: flex;
+    flex-direction: column;
+    width: 1280px;
+    height: 700px;
+    background-color: #ffff;
+    margin-top: 40px;
+}
+
+.ind-cont h1{
+    padding-top: 70px;
+    width: 1000px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 70px;
+    padding-left: 120px;
+    
+}
+
+.ind-logos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 120px; 
+    justify-items: center; 
+    align-items: center;
+    padding: 40px 100px 100px 100px ;
+    width: 1000px;
+}
+
+.ind-logos img{
+    width: 140px;
+    object-fit: contain;
+}
+
+.tec-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    width: 1280px;
+    height: 650px;
+    background-color: #ffff;
+    flex-wrap: nowrap;
+}
+
+.tec-info{
+    padding-top: 60px;
+    width: 1000px;
+    height: 300px;
+}
+
+.tec-info h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 70px;
+}
+
+.tec-info p{
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+}
+
+.tecs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    gap: 20px;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+
+.carousel-btn.prev {
+    left: 0;
+}
+
+.carousel-btn.next {
+    right: 0;
+}
+
+.pry-cont{
+    margin-top: 40px;
+    width: 1280px;
+    height: 700px;
+    background-color: #ffff;
+}
+
+
+
+

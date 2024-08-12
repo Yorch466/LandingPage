@@ -1,0 +1,40 @@
+
+.tec-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+}
+
+.tec-card img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.tec-card span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #020303;
+}
+
+.tec-card span:hover{
+    color: #f7d100;
+    cursor: default;
+}
+
+.tec-card hr{
+    padding: 0;
+    margin: 0;
+}
+
+.tec-card hr:hover{
+    border-color: #f7d100;
+}
+
+
