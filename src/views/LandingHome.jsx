@@ -72,7 +72,7 @@ export const LandingHome = () => {
                     <hr />
                     <img src={topC} alt="no furulo we" />
                 </div>
-                <div className="svc-cont">
+                <div id="services" className="svc-cont">
                     <h1>Servicios que Ofrecemos</h1>
                     <hr />
                     <div className="svc-content">
@@ -91,7 +91,7 @@ export const LandingHome = () => {
                         </div>
                     </div>
                 </div>
-                <div className="ind-cont">
+                <div id="clients" className="ind-cont">
                     <h1>Empresas con las que estamos orgullosos de haber trabajado</h1>
                     <div className="ind-logos">
                         <IndustriesLogos industrie="https://static.andersenlab.com/andersenlab/new-andersensite/customers/tui-color.svg" />
@@ -104,7 +104,7 @@ export const LandingHome = () => {
                         <IndustriesLogos industrie="https://static.andersenlab.com/andersenlab/new-andersensite/customers/mercedes-color.svg" />
                     </div>
                 </div>
-                <div className="tec-cont">
+                <div id="tecnologies" className="tec-cont">
                     <div className="tec-info">
                         <h2>Set de Tecnologias</h2>
                         <p>
@@ -137,7 +137,7 @@ export const LandingHome = () => {
                         </button>
                     </div>
                 </div>
-                <div className="pry-cont">
+                <div id="proyects" className="pry-cont">
                     <h2>Proyectos que realizamos</h2>
                     <div className="pry-info">
                         <ProyectsCard/>
