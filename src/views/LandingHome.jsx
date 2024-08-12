@@ -11,10 +11,10 @@ import net from "../assets/svg/NET.svg";
 import php from "../assets/svg/php.svg";
 import python from "../assets/svg/python.svg";
 import react from "../assets/svg/react.svg";
-import "../styles/views styles/LandingHome.css";
+import "../components/styles/views styles/LandingHome.css";
 import { ServicesCard } from "../components/ServicesCard";
 import { IndustriesLogos } from "../components/IndustriesLogos";
-import { TecnologyCard } from "../components/TecnologyCard";
+import { TecnologyCard } from "../components/cards/TecnologyCard";
 import { ProyectsCard } from "../components/ProyectsCard";
 import { Footer } from "../components/Footer";
 

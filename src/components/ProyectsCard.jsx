@@ -1,12 +1,12 @@
 
-import "../styles/components styles/ProyectsCard.css"
+import "./styles/components styles/ProyectsCard.css"
 import kevin from "../assets/img/kevin.jpeg"
 import ali from "../assets/img/ali.jpeg"
 import choque from "../assets/img/choque.jpeg"
 import fox from "../assets/img/fox.jpeg"
 import building from "../assets/img/building.jpg"
 import yorch from "../assets/img/yorch.png"
-import { ProyectsC } from "./ProyectsC"
+import { ProyectsC } from "./cards/ProyectsC"
 
 const data = {
     kevin: "Aplicación web dedicada a las tarjetas didácticas personalizadas. Esta iniciativa se erige como un esfuerzo por proporcionar a los usuarios una herramienta integral y eficaz para el estudio y repaso de conceptos esenciales.",
