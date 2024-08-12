@@ -16,6 +16,7 @@ import { ServicesCard } from "../components/ServicesCard";
 import { IndustriesLogos } from "../components/IndustriesLogos";
 import { TecnologyCard } from "../components/TecnologyCard";
 import { ProyectsCard } from "../components/ProyectsCard";
+import { Footer } from "../components/Footer";
 
 export const LandingHome = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -142,9 +143,9 @@ export const LandingHome = () => {
                         <ProyectsCard/>
                     </div>
                 </div>
-                <footer className="ft-cont">
-                    
-                </footer>
+                <div className="ft-cont">
+                    <Footer/>
+                </div>
             </div>
         </div>
     );
