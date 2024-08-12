@@ -18,14 +18,14 @@ const data = {
 }
 
 export const ProyectsCard = () => {
-    return(
-        <>
-            <ProyectsC img= {kevin} desc={data.kevin}/>
-            <ProyectsC img= {ali} desc={data.ali}/>
-            <ProyectsC img= {choque} desc={data.choque}/>
-            <ProyectsC img= {fox} desc={data.fox}/>
-            <ProyectsC img= {building} desc={data.building}/>
-            <ProyectsC img= {yorch} desc={data.yorch}/>
-        </>
+    return (
+        <div className="proyects-container">
+            <ProyectsC img={kevin} desc={data.kevin} />
+            <ProyectsC img={ali} desc={data.ali} />
+            <ProyectsC img={choque} desc={data.choque} />
+            <ProyectsC img={fox} desc={data.fox} />
+            <ProyectsC img={building} desc={data.building} />
+            <ProyectsC img={yorch} desc={data.yorch} />
+        </div>
     )
 }

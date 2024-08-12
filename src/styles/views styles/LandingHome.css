@@ -155,9 +155,16 @@
     width: 1000px;
 }
 
+
 .ind-logos img{
     width: 140px;
     object-fit: contain;
+    border-radius: 10px;
+}
+
+.ind-logos img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
 }
 
 .tec-cont{
@@ -234,10 +241,23 @@
 }
 
 .pry-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 40px;
     width: 1280px;
-    height: 700px;
+    height: 1200px;
     background-color: #ffff;
+
+}
+
+.pry-cont h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 29px;
 }
 
 

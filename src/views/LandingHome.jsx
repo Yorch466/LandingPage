@@ -142,6 +142,9 @@ export const LandingHome = () => {
                         <ProyectsCard/>
                     </div>
                 </div>
+                <footer className="ft-cont">
+                    
+                </footer>
             </div>
         </div>
     );

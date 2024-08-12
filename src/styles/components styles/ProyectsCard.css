@@ -1,0 +1,8 @@
+.proyects-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1Fr);
+    gap: 50px; 
+    padding: 0px 100px 100px 100px ;
+    width: 1000px;
+    height: 770px;
+}
