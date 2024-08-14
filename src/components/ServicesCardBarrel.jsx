@@ -1,9 +1,10 @@
-import "../styles/components styles/proyectsC.css"
-import { ServicesCard } from "../ServicesCard"
+// import "./styles/components styles/proyectsC.css"
+import "./styles/barrel styles/ServicesCardBarrel.css"
+import { ServicesCard } from "./cards/ServicesCard"
 
-export const ServicesC = () => {
+export const ServicesCardBarrel = () => {
     return (
-        <>
+        <div className="services-cont">
             <ServicesCard service="Desarrollo Móvil" />
             <ServicesCard service="Desarrollo Web" />
             <ServicesCard service="Desarrollo de Software a medida" />
@@ -14,6 +15,6 @@ export const ServicesC = () => {
             <ServicesCard service="Desarrollo PWA" />
             <ServicesCard service="Integración API" />
             <ServicesCard service="Modernización de sistemas heredados" />
-        </>
+        </div>
     )
 }

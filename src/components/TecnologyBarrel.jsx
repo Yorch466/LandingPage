@@ -8,6 +8,7 @@ import python from "../assets/svg/python.svg";
 import react from "../assets/svg/react.svg";
 import { useState } from "react";
 import {TecnologyCard} from "./cards/TecnologyCard"
+import "./styles/barrel styles/TecnologyBarrel.css"
 
 export const TecnologyBarrel = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -37,7 +38,7 @@ export const TecnologyBarrel = () => {
     };
 
     return (
-        <>
+        <div className="carousel-container">
             <button onClick={prev} className="carousel-btn prev">
                 {"<"}
             </button>
@@ -55,6 +56,6 @@ export const TecnologyBarrel = () => {
             <button onClick={next} className="carousel-btn next">
                 {">"}
             </button>
-        </>
+        </div>
     )
 }
