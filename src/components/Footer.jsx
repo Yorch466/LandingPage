@@ -1,5 +1,5 @@
 
-import "../styles/components styles/Footer.css"
+import "./styles/components styles/Footer.css"
 
 export const Footer = () => {
     return (

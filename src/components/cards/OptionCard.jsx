@@ -4,10 +4,12 @@ import '../styles/components styles/optionCard.css'
  * @param {String} String
  * @returns 
  */
-export const OptionCard = ({ option, link }) => {
+export const OptionCard = ({ option}) => {
     return (
-        <span className="services"> 
-            <a href={link}>{option}</a>
-        </span>
+        <>
+            <span className="services">
+                {option}
+            </span>
+        </>
     )
 }

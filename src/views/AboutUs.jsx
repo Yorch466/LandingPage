@@ -1,5 +1,5 @@
 
-import "../styles/views styles/AboutUs.css"
+import "../components/styles/views styles/AboutUs.css"
 import organigrama from "../assets/img/organigrama.jpg"
 import { NavBar } from "../components/NavBar"
 import { Footer } from "../components/Footer"

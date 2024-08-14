@@ -1,6 +1,6 @@
-import '../styles/components styles/NavBar.css'
+import './styles/components styles/NavBar.css'
 import logo from '../assets/img/companyLogo.jpeg'
-import { OptionCard } from './OptionCard'
+import { OptionCard } from './cards/OptionCard'
 import { Link } from 'react-router-dom'
 export const NavBar = () => {
 
