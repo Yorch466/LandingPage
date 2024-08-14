@@ -2,12 +2,12 @@ import topC from "../assets/img/topCompany.png";
 import toolK from "../assets/img/toolkits.jpg";
 import bg from "../assets/img/msgA.jpg";
 import { NavBar } from "../components/NavBar";
-import { ServicesC } from "../components/cards/ServicesC";
 import { ProyectsCard } from "../components/ProyectsCard";
 import { Footer } from "../components/Footer";
 import { IndustriesLogosBarrel } from "../components/IndustriesLogosBarrel";
 import { TecnologyBarrel } from "../components/TecnologyBarrel";
 import "../components/styles/views styles/LandingHome.css";
+import { ServicesCardBarrel } from "../components/ServicesCardBarrel";
 
 export const LandingHome = () => {
 
@@ -27,7 +27,7 @@ export const LandingHome = () => {
 
     return (
         <div className="ldh-container">
-            <div className="nv-container">
+            <div className="nav-container">
                 <NavBar />
             </div>
             <div className="bd-cont">
@@ -45,7 +45,7 @@ export const LandingHome = () => {
                 </div>
                 <div className="msg-cont">
                     <p>
-                        {paragraphs.messageIntro}                        
+                        {paragraphs.messageIntro}
                     </p>
                     <hr />
                     <img src={topC} alt="no furulo we" />
@@ -55,16 +55,12 @@ export const LandingHome = () => {
                     <hr />
                     <div className="svc-content">
                         <img className="svc-img" src={toolK} alt="no furulo we" />
-                        <div className="services-cont">
-                            <ServicesC/>
-                        </div>
+                        <ServicesCardBarrel />
                     </div>
                 </div>
                 <div id="clients" className="ind-cont">
                     <h1>Empresas con las que estamos orgullosos de haber trabajado</h1>
-                    <div className="ind-logos">
-                        <IndustriesLogosBarrel/>
-                    </div>
+                    <IndustriesLogosBarrel />
                 </div>
                 <div id="tecnologies" className="tec-cont">
                     <div className="tec-info">
@@ -73,18 +69,16 @@ export const LandingHome = () => {
                             {paragraphs.messageTecno}
                         </p>
                     </div>
-                    <div className="carousel-container">
-                        <TecnologyBarrel/>
-                    </div>
+                    <TecnologyBarrel />
                 </div>
                 <div id="proyects" className="pry-cont">
                     <h2>Proyectos que realizamos</h2>
                     <div className="pry-info">
-                        <ProyectsCard/>
+                        <ProyectsCard />
                     </div>
                 </div>
                 <div className="ft-cont">
-                    <Footer/>
+                    <Footer />
                 </div>
             </div>
         </div>

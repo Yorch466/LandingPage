@@ -1,0 +1,6 @@
+.services-cont{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    gap: 10px 20px;
+}
