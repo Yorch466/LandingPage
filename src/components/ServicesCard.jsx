@@ -1,7 +1,7 @@
 import "./styles/components styles/servicesCard.css"
 import arrowSVG from "../assets/svg/arrow.svg"
 
-export const ServicesCard = ({ service, arrowSVG }) => {
+export const ServicesCard = ({ service }) => {
     return (
         <div className="svc-card">
             <a href="">
