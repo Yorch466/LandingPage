@@ -15,7 +15,7 @@ const data = {
     choque: "Sistema web de prediagnóstico para enfermedades respiratorias que tiene como objetivo brindar a los usuarios una herramienta accesible para identificar posibles afecciones respiratorias.",
     fox: "Aplicación móvil para pacientes de un servicio médico que permite agendar citas, registra la información de las mismas y los detalles del tratamiento, y envía notificaciones para asegurar que los pacientes no pierdan sus citas y sigan el tratamiento correctamente.",
     building: "Plataforma Web para centralizar los proveedores de eventos y conectarlos con posibles compradores",
-    yorch: "Aplicación móvil para la recomendación y generación de dietas aplicando Inteligencia Artificial generativa e interpretativa.",
+    yorch: "Aplicación móvil para la recomendación y generación de dietas aplicando Inteligencia Artificial generativa e interpretativa .",
 }
 
 export const ProyectsCard = () => {
