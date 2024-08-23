@@ -9,7 +9,7 @@ export const ServicesCardBarrel = () => {
             <ServicesCard service="Desarrollo Web" />
             <ServicesCard service="Desarrollo de Software a medida" />
             <ServicesCard service="Desarrollo multiplataforma " />
-            <ServicesCard service="Desarrollo en la nube" />
+            <ServicesCard service="Desarrollo en la nube " />
             <ServicesCard service="Desarrollo IoT" />
             <ServicesCard service="Creación y Gestión de Bases de Datos" />
             <ServicesCard service="Desarrollo PWA" />
