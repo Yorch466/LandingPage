@@ -161,7 +161,10 @@
 
 .ind-cont-sub p{
     margin: 25px 0;
-    color: rgba(255, 207, 155, 1);;
+    color: rgba(255, 207, 155, 1);
+    font-weight: 600;
+    font-size: 25px;
+    width: 800px;
 }
 
 .cp-cont{
