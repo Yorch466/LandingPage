@@ -1,11 +1,12 @@
 .cardp-cont{
     display: flex;
     flex-direction: column;
-    background-color: rgb(2,13,28);
-    color: #ffff;
+    background-color: rgba(255, 232, 208, 1);
+    color: black;
     width: 300px;
-    height: 430px;
+    height: 320px;
     align-items: center;
+    justify-content: center;
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -16,16 +17,24 @@
     box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
 }
 
-.cardp-cont img{
-    width: 300px;
-    height: 200px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+.capybara-container{
+    margin: 0;
+    padding: 0;
 }
 
-.cardp-cont p{
+.capybara-container img{
+    width: 10px;
+    height: 10px;
+}
+
+.cardp-cont-pry{
+    width: 300px;
+    height: 200px;
+}
+
+.cardp-cont span{
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 15px;
     line-height: 28px;
     padding: 15px;

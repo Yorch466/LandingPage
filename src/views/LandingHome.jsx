@@ -21,6 +21,7 @@ export const LandingHome = () => {
         messageTecno: `Colabore con expertos en informática y software web y móvil. Aplicamos las tecnologías más avanzadas para ofrecer un software con un back-end sólido y una interfaz intuitiva.`,
         messageService: `Navega con confianza. Nuestros servicios están diseñados para adaptarse a cualquier situación y superar las expectativas.`,
         messageClients: `Nos sentimos honrados de haber trabajado junto a estas empresas, con la serenidad y dedicación que nos caracteriza.`,
+        messageProyects: `Explora nuestros proyectos realizados, donde cada uno refleja nuestro compromiso con la excelencia y la innovación. Desde soluciones tecnológicas avanzadas hasta diseños intuitivos, nuestros trabajos destacan por su calidad y efectividad`,
     }
 
     return (
@@ -70,7 +71,7 @@ export const LandingHome = () => {
                 <hr className="lines" />
                 <div id="tecnologies" className="tec-cont">
                     <div className="tec-info">
-                        <h2>Set de Tecnologias</h2>
+                        <h2>SET DE TECNOLOGIAS</h2>
                         <p>
                             {paragraphs.messageTecno}
                         </p>
@@ -79,7 +80,10 @@ export const LandingHome = () => {
                 </div>
                 <hr className="lines" />
                 <div id="proyects" className="pry-cont">
-                    <h2>Proyectos que realizamos</h2>
+                    <div className="pry-tittle">
+                        <h2>PROYECTOS QUE REALIZAMOS</h2>
+                        <p>{paragraphs.messageProyects}</p>
+                    </div>
                     <div className="pry-info">
                         <ProyectsCard />
                     </div>
