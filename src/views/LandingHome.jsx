@@ -18,13 +18,7 @@ export const LandingHome = () => {
                         directo
                         del equipo y los procesos adecuados cultivados a lo largo
                         de los años.`,
-        messageTecno: `Colabore con expertos informáticos competentes y
-                            expertos en ingeniería de software web y móvil. Como
-                            socio tecnológico y empresarial de confianza, aplicamos
-                            las tecnologías, los marcos de trabajo y los componentes
-                            más avanzados para crear software que destaca por su
-                            back-end sólido y eficaz con una interfaz de usuario y
-                            una interfaz de usuario intuitivas.`,
+        messageTecno: `Colabore con expertos en informática y software web y móvil. Aplicamos las tecnologías más avanzadas para ofrecer un software con un back-end sólido y una interfaz intuitiva.`,
         messageService: `Navega con confianza. Nuestros servicios están diseñados para adaptarse a cualquier situación y superar las expectativas.`,
         messageClients: `Nos sentimos honrados de haber trabajado junto a estas empresas, con la serenidad y dedicación que nos caracteriza.`,
     }
@@ -74,7 +68,6 @@ export const LandingHome = () => {
                     </div>
                 </div>
                 <hr className="lines" />
-
                 <div id="tecnologies" className="tec-cont">
                     <div className="tec-info">
                         <h2>Set de Tecnologias</h2>
@@ -84,6 +77,7 @@ export const LandingHome = () => {
                     </div>
                     <TecnologyBarrel />
                 </div>
+                <hr className="lines" />
                 <div id="proyects" className="pry-cont">
                     <h2>Proyectos que realizamos</h2>
                     <div className="pry-info">
