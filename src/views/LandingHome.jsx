@@ -2,6 +2,7 @@ import skI from "../assets/img/sharkIcon.png";
 import bg from "../assets/img/bg_landing.png";
 import caplef from "../assets/img/iconcapyizq.png";
 import caprig from "../assets/img/iconcapyder.png";
+import cpI from "../assets/img/capyIcon.png";
 import { NavBar } from "../components/NavBar";
 import { ProyectsCard } from "../components/ProyectsCard";
 import { Footer } from "../components/Footer";
@@ -25,6 +26,7 @@ export const LandingHome = () => {
                             back-end sólido y eficaz con una interfaz de usuario y
                             una interfaz de usuario intuitivas.`,
         messageService: `Navega con confianza. Nuestros servicios están diseñados para adaptarse a cualquier situación y superar las expectativas.`,
+        messageClients: `Nos sentimos honrados de haber trabajado junto a estas empresas, con la serenidad y dedicación que nos caracteriza.`,
     }
 
     return (
@@ -58,13 +60,21 @@ export const LandingHome = () => {
                     <div className="svc-content">
                         <ServicesCardBarrel />
                         <img className="svc-img" src={skI} alt="no furulo we" />
-
                     </div>
                 </div>
+                <hr className="lines" />
                 <div id="clients" className="ind-cont">
-                    <h1>Empresas con las que estamos orgullosos de haber trabajado</h1>
-                    <IndustriesLogosBarrel />
+                    <div className="cp-cont">
+                        <img className="" src={cpI} alt="no furulo we" />
+                    </div>
+                    <div className="ind-cont-sub">
+                        <h1>NUESTROS SOCIOS ORGULLOSOS </h1>
+                        <p>{paragraphs.messageClients}</p>
+                        <IndustriesLogosBarrel />
+                    </div>
                 </div>
+                <hr className="lines" />
+
                 <div id="tecnologies" className="tec-cont">
                     <div className="tec-info">
                         <h2>Set de Tecnologias</h2>

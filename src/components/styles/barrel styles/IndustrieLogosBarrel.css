@@ -1,22 +1,25 @@
 
 .ind-logos {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 120px; 
+    grid-template-columns: repeat(2, 3fr); 
+    gap: 50px; 
     justify-items: center; 
     align-items: center;
-    padding: 40px 100px 100px 100px ;
-    width: 1000px;
+    background-color: #fff;
+    padding: 10px;
+    margin-right: 10px;
+    width: 780px;
+    border-radius: 10px;
 }
 
 
 .ind-logos img{
-    width: 140px;
+    width: 100px;
     object-fit: contain;
     border-radius: 10px;
 }
 
 .ind-logos img:hover{
     transform: translateY(-10px);
-    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 16px 32px rgba(9, 1, 247, 0.3);
 }
