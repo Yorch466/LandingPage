@@ -1,6 +1,7 @@
-import topC from "../assets/img/topCompany.png";
-import toolK from "../assets/img/toolkits.jpg";
+import skI from "../assets/img/sharkIcon.png";
 import bg from "../assets/img/bg_landing.png";
+import caplef from "../assets/img/iconcapyizq.png";
+import caprig from "../assets/img/iconcapyder.png";
 import { NavBar } from "../components/NavBar";
 import { ProyectsCard } from "../components/ProyectsCard";
 import { Footer } from "../components/Footer";
@@ -23,6 +24,7 @@ export const LandingHome = () => {
                             más avanzados para crear software que destaca por su
                             back-end sólido y eficaz con una interfaz de usuario y
                             una interfaz de usuario intuitivas.`,
+        messageService: `Navega con confianza. Nuestros servicios están diseñados para adaptarse a cualquier situación y superar las expectativas.`,
     }
 
     return (
@@ -41,19 +43,22 @@ export const LandingHome = () => {
                         <p>{paragraphs.messageIntro}</p>
                     </div>
                 </div>
-                {/* <div className="msg-cont">
+                <div className="msg-cont">
+                    <img src={caplef} alt="no furulo we" />
                     <p>
-                        {paragraphs.messageIntro}
+                        DEVORAMOS A LA COMPETENCIA
                     </p>
-                    <hr />
-                    <img src={topC} alt="no furulo we" />
-                </div> */}
+                    <img src={caprig} alt="no furulo we" />
+                </div>
                 <div id="services" className="svc-cont">
-                    <h1>Servicios que Ofrecemos</h1>
-                    <hr />
+                    <div className="svc-title">
+                        <h1>Servicios que Ofrecemos</h1>
+                        <p>{paragraphs.messageService}</p>
+                    </div>
                     <div className="svc-content">
-                        <img className="svc-img" src={toolK} alt="no furulo we" />
                         <ServicesCardBarrel />
+                        <img className="svc-img" src={skI} alt="no furulo we" />
+
                     </div>
                 </div>
                 <div id="clients" className="ind-cont">
