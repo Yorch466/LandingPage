@@ -1,8 +1,13 @@
 .services{
-    font-style: italic;
+    font-family: Inter, sans-serif;
+    font-style:normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 16px;
+
 }
 
 .services:hover{
     cursor: pointer;
-    color: #1a73e8;
+    color: #0A4D7B;
 }

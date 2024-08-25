@@ -1,5 +1,5 @@
 import './styles/components styles/NavBar.css'
-import logo from '../assets/img/companyLogo.jpeg'
+import logo from '../assets/img/companyLogo.png'
 import { OptionCard } from './cards/OptionCard'
 import { Link } from 'react-router-dom'
 export const NavBar = () => {
@@ -9,7 +9,6 @@ export const NavBar = () => {
             <Link to="/">
                 <div className="ln-cont">
                     <img src={logo} alt="no furulo we" />
-                    <span>CapySharksDevs SRL</span>
                 </div>
             </Link>
             <div className="sp-cont">

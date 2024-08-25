@@ -1,6 +1,6 @@
 import topC from "../assets/img/topCompany.png";
 import toolK from "../assets/img/toolkits.jpg";
-import bg from "../assets/img/msgA.jpg";
+import bg from "../assets/img/bg_landing.png";
 import { NavBar } from "../components/NavBar";
 import { ProyectsCard } from "../components/ProyectsCard";
 import { Footer } from "../components/Footer";
@@ -33,23 +33,21 @@ export const LandingHome = () => {
             <div className="bd-cont">
                 <div className="pst-cont">
                     <img src={bg} alt="no furulo we" />
-                    <span className="sp1">
-                        Empresa de <br />
-                        desarrollo de <br />
-                        Software.
-                    </span>
-                    <span className="sp2">
-                        Devoramos <br />
-                        a la competencia
-                    </span>
+                    <div className="sp1">
+                        <span >
+                            EMPRESA DE DESARROLLO <br />
+                            DE SOFTWARE <br />
+                        </span>
+                        <p>{paragraphs.messageIntro}</p>
+                    </div>
                 </div>
-                <div className="msg-cont">
+                {/* <div className="msg-cont">
                     <p>
                         {paragraphs.messageIntro}
                     </p>
                     <hr />
                     <img src={topC} alt="no furulo we" />
-                </div>
+                </div> */}
                 <div id="services" className="svc-cont">
                     <h1>Servicios que Ofrecemos</h1>
                     <hr />

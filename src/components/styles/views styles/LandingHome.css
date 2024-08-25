@@ -13,9 +13,12 @@
 .pst-cont{
     position: relative;
     display: inline-block;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 500px;
+    height: 600px;
     color: #ffff;
+    box-shadow: #020303;
 }
 
 .pst-cont img{
@@ -26,40 +29,33 @@
 
 .sp1 {
     position: absolute;
-    bottom: 180px;
-    left: 50px; 
+    bottom: 280px;
+    left: 420px; 
     color: white; 
     font-size: 40px; 
-    background-color: rgba(0, 0, 0, 0.5); 
-    padding: 10px 20px;
     border-radius: 5px;
-    width: 300px;
-    transition: background-color 0.3s ease;
+    width: 750px;
+    height: 163px;
     text-align: center;
 }
 
-.sp1:hover {
-    background-color: #988d22; /* Color amarillo tipo Pac-Man */
+.sp1 span{
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 16px;
+
 }
 
-.sp2{
-    position: absolute;
-    bottom: 180px;
-    right: 50px; 
-    color: white; 
-    font-size: 40px; 
-    background-color: rgba(0, 0, 0, 0.5); 
-    padding: 10px;
-    border-radius: 5px;
-    width: 300px;
-    transition: background-color 0.3s ease;
-    text-align: center;
+.sp1 p{
+    margin-top: 50px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 26px;
 }
-
-.sp2:hover{
-    background-color: #8b1410eb; /* Color amarillo tipo Pac-Man */
-}
-
 
 .msg-cont{
     display: flex;
