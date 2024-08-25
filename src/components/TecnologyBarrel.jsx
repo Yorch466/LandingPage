@@ -51,7 +51,8 @@ export const TecnologyBarrel = () => {
                             image={tec.image}
                             tecnology={tec.tecnology}
                         />
-                    ))}
+                    ))
+                }
             </div>
             <button onClick={next} className="carousel-btn next">
                 {">"}
