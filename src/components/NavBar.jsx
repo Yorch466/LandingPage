@@ -12,16 +12,16 @@ export const NavBar = () => {
                 </div>
             </Link>
             <div className="sp-cont">
-                <a href="#proyects">
+                <a href="/#proyects">
                     <OptionCard option="Proyectos" />
                 </a>
-                <a href="#clients">
+                <a href="/#clients">
                     <OptionCard option="Clientes" />
                 </a>
-                <a href="#tecnologies">
+                <a href="/#tecnologies">
                     <OptionCard option="Tecnologia" />
                 </a>
-                <a href="#services">
+                <a href="/#services">
                     <OptionCard option="Servicios" />
                 </a>
                 <Link to="/aboutus">
