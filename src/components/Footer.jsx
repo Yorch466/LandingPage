@@ -22,7 +22,7 @@ export const Footer = () => {
                 <h6 className="footer-title">Social</h6>
                 <div className="grid grid-flow-col gap-4">
                     <a href="https://www.instagram.com/george_ll46/" target="_blank">
-                        { <img src={insta} alt="no furulo we" /* TODO: Fix inline Style of all this style={{backgroundColor:#BDC3C7}}*//>}
+                        { <img src={insta} alt="no furulo we" style={{backgroundColor: '#B4BBBF', width: 25, height: 25, margin: 0, padding: 0, borderRadius: 10}}/>}
                     </a>
                     <a href="https://www.youtube.com/@ponchoperez1787" target="_blank">
                         <svg
