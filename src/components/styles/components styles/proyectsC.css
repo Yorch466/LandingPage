@@ -40,3 +40,13 @@
     padding: 15px;
 }
 
+.cardp-cont a{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    padding: 15px;
+}
+

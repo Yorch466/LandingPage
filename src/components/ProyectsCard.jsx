@@ -3,7 +3,8 @@ import kevin from "../assets/img/kevin.jpeg"
 import ali from "../assets/img/ali.jpeg"
 import choque from "../assets/img/choque.jpeg"
 import fox from "../assets/img/fox.jpeg"
-import building from "../assets/img/building.jpg"
+// import building from "../assets/img/building.jpg"
+import chalitaoe from "../assets/img/ChalitaOE.png"
 import yorch from "../assets/img/yorch.png"
 import { ProyectsC } from "./cards/ProyectsC"
 import "./styles/barrel styles/ProyectsCardBarrel.css"
@@ -11,7 +12,7 @@ import { useState } from "react"
 
 const data = {
     kevin: "APLICACION DE ESTUDIO DIDADCTICO MIND CARDS",
-    ali: "SISTEMA DE GESTION VETERINARIA", 
+    ali: "SISTEMA DE GESTION VETERINARIA",
     choque: "SISTEMA DE PREDIAGNOSTICOS DIAGNOSTIC JVP",
     fox: "SISTEMA DE GESTION MEDICA RESERVAS MED",
     building: "APLICACION DIGITAL PARA EVENTOS SOCIALES CHALITA OE",
@@ -19,27 +20,27 @@ const data = {
 }
 
 export const ProyectsCard = () => {
-    
+
     const [currentIndex, setCurrentIndex] = useState(0);
     const itemsPerPage = 3;
-    
+
     const proyData = [
-        { img: kevin, tittle: data.kevin},
-        { img: ali, tittle: data.ali},
-        { img: choque, tittle: data.choque},
-        { img: fox, tittle: data.fox},
-        { img: building, tittle: data.building},
-        { img: yorch, tittle: data.yorch},
+        { img: kevin, tittle: data.kevin },
+        { img: chalitaoe, tittle: data.building },
+        { img: choque, tittle: data.choque },
+        { img: fox, tittle: data.fox },
+        { img: ali, tittle: data.ali },
+        { img: yorch, tittle: data.yorch },
     ]
 
     const next = () => {
-        if(currentIndex < proyData.length - itemsPerPage){
+        if (currentIndex < proyData.length - itemsPerPage) {
             setCurrentIndex(currentIndex + itemsPerPage);
         }
     };
 
     const prev = () => {
-        if(currentIndex > 0 ){
+        if (currentIndex > 0) {
             setCurrentIndex(currentIndex - itemsPerPage);
         }
     };
@@ -52,15 +53,16 @@ export const ProyectsCard = () => {
             <div className="proys">
                 {
                     proyData
-                    .slice(currentIndex, currentIndex + itemsPerPage)
-                    .map((proy, index) => (
-                        <ProyectsC
-                            key={index}
-                            img={proy.img}
-                            tittle={proy.tittle}
-                        />
-                    ))
+                        .slice(currentIndex, currentIndex + itemsPerPage)
+                        .map((proy, index) => (
+                            <ProyectsC
+                                key={index}
+                                img={proy.img}
+                                tittle={proy.tittle}
+                            />
+                        ))
                 }
+                
             </div>
             <button onClick={next} className="carousel-btn next">
                 {">"}
