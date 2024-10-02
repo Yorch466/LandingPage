@@ -8,7 +8,7 @@
   color: #fff;
   background-color: #2C3E50;
   width: 100%;
-  height: 120px;
+  height: 150px;
   margin: 0;
   padding: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
@@ -24,6 +24,7 @@
 .ln-cont {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 200px;
   height: 100%;
   margin-left: 32px;
@@ -34,8 +35,8 @@
 }
 
 .ln-cont img {
-  width: 100%;
-  height: 100%;
+  width: 250px;
+  height: 250px;
 }
 
 .sp-cont {
