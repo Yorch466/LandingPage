@@ -1,5 +1,6 @@
 
 import "./styles/components styles/Footer.css"
+import Iframe from "react-iframe"
 
 export const Footer = () => {
     return (
@@ -16,7 +17,8 @@ export const Footer = () => {
                 <a className="link link-hover">Correo: capysharks@gmail.com </a>
                 <a className="link link-hover">Contáctanos: +591 79792624 </a>
                 <a className="link link-hover">Dirección: Calle Bustillos #387</a>
-                <a className="link link-hover">Proyectos </a>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235.70366963650832!2d-65.26413115397744!3d-19.052359454756232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93fbcf3393b76cf9%3A0xa078929263a1ce64!2sCecap%20Consulting!5e0!3m2!1ses-419!2sbo!4v1731471183400!5m2!1ses-419!2sbo" width="400" height="250" ></iframe>
+
             </nav>
             <nav>
                 <h6 className="footer-title">Social</h6>
